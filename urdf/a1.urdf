@@ -403,7 +403,7 @@
     </collision>
   </link>
   <joint name="FR_thigh_joint" type="revolute">
-    <origin rpy="0 0 0" xyz="0 -0.0838 0"/>
+    <origin rpy="0 0.5 0" xyz="0 -0.0838 0"/>
     <parent link="FR_hip"/>
     <child link="FR_thigh"/>
     <axis xyz="0 1 0"/>
@@ -555,7 +555,7 @@
     </collision>
   </link>
   <joint name="FL_thigh_joint" type="revolute">
-    <origin rpy="0 0 0" xyz="0 0.0838 0"/>
+    <origin rpy="0 0.5 0" xyz="0 0.0838 0"/>
     <parent link="FL_hip"/>
     <child link="FL_thigh"/>
     <axis xyz="0 1 0"/>
@@ -707,7 +707,7 @@
     </collision>
   </link>
   <joint name="RR_thigh_joint" type="revolute">
-    <origin rpy="0 0 0" xyz="0 -0.0838 0"/>
+    <origin rpy="0 0.5 0" xyz="0 -0.0838 0"/>
     <parent link="RR_hip"/>
     <child link="RR_thigh"/>
     <axis xyz="0 1 0"/>
@@ -859,7 +859,7 @@
     </collision>
   </link>
   <joint name="RL_thigh_joint" type="revolute">
-    <origin rpy="0 0 0" xyz="0 0.0838 0"/>
+    <origin rpy="0 0.5 0" xyz="0 0.0838 0"/>
     <parent link="RL_hip"/>
     <child link="RL_thigh"/>
     <axis xyz="0 1 0"/>
@@ -970,4 +970,3 @@
   </transmission>
   <!-- <xacro:stairs stairs="15" xpos="0" ypos="2.0" zpos="0" /> -->
 </robot>
-
